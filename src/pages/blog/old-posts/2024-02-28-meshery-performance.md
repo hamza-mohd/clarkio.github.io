@@ -1,15 +1,15 @@
 ---
 title: Performance Testing That Understands Kubernetes - Why I Rely on Meshery
-publishDate: February 28th, 2024
+publishDate: 02-28-2024
 author: Hamza Mohd
-description: |
+description: Performance testing in cloud native environments is like chasing shadows. 
 keywords: "layer5, performance testing, load generation, k6, devops, collaboration, infrastructure, kubernetes, meshery"
-layout: "../../layouts/BaseLayout.astro"
+layout: "../../../layouts/BaseLayout.astro"
 ---
 
 Performance testing in cloud native environments is like chasing shadows. You run your load tests, stare at Prometheus dashboards, and squint hard enough to guess if the dip in p99 latency is your service, your cluster, or just the garbage collector doing its thing.
 
-I’ve been there—too many times. That’s why I now use **Meshery** for performance characterization. It’s the first tool I’ve used that actually *understands* Kubernetes and service meshes while benchmarking them.
+I’ve been there—too many times. That’s why I now use **Meshery** for performance characterization. It’s the first tool I’ve used that actually *understands* Kubernetes and public clouds or microservices  while benchmarking them.
 
 ### **The Problem with Traditional Load Testing**
 
@@ -28,15 +28,15 @@ Traditional tools don’t answer these. They treat your app like a black box.
 
 ### **Meshery: Beyond Load Generation**
 
-Meshery isn't just a load generator—it’s a **Kubernetes-native performance management platform**. It can deploy test workloads, run benchmarking scenarios, and contextualize results with **actual infrastructure state and service mesh configuration**.
+Meshery isn't just a load generator—it’s a **Kubernetes-native performance management platform**. It can deploy test workloads, run benchmarking scenarios, and contextualize results with **actual infrastructure state and configuration**.
 
 This is the difference between "it was slow" and "it was slow because of policy X, mTLS, or Envoy filter Z."
 
 ### **What I Love About Meshery’s Performance Characterization**
 
-#### ✅ **Service Mesh Awareness**
+#### ✅ **Kubernetes, GCP, AWS, Azure Awareness**
 
-Meshery speaks the language of Istio, Linkerd, Consul, and more. When you run a test, it understands sidecars, telemetry overhead, traffic shaping policies, and retries. It accounts for mesh-induced latency.
+Meshery speaks the language of all the CNCF projects and more. When you run a test, it understands Azure, Google Cloud Platform, AWS, and Kubernetes sidecars, telemetry overhead, traffic shaping policies, and retries. It accounts for data plane-induced latency.
 
 #### ✅ **Repeatable Test Profiles**
 
@@ -58,7 +58,7 @@ Beautiful charts, time-series graphs, histograms. I send Meshery reports to my t
 ### **Typical Use Cases**
 
 * **Pre-release benchmarking:** Validate new versions of your microservices before rollout.
-* **Service mesh evaluation:** Compare latency/throughput across Istio, Linkerd, and others with the same app and traffic.
+* **Infrastructure evaluation:** Compare latency/throughput across Istio, Linkerd, and others with the same app and traffic.
 * **Policy testing:** Observe the performance impact of retries, timeouts, circuit breakers, and rate limiting.
 * **Regression detection:** Baseline your current performance, and detect when it slips—automatically.
 
@@ -79,11 +79,11 @@ It’s simple, clean, and powerful. No shell scripts or PromQL acrobatics.
 
 ### **Final Thoughts**
 
-We obsess over performance, and yet most of our tools are designed like it’s 2005. Meshery is different. It’s built for the **multi-service, polyglot, service-mesh-powered world** we actually live in.
+We obsess over performance, and yet most of our tools are designed like it’s 2005. Meshery is different. It’s built for the **multi-service, polyglot, cloud-native-infrastructure-powered world** we actually live in.
 
 As engineers, our job is not just to build fast systems—it’s to understand *why* they’re fast or slow. Meshery gives me that understanding.
 
-If you’re working in Kubernetes, running a service mesh, or just tired of duct-taping Grafana to load tests, you owe it to yourself to try Meshery.
+If you’re working in Kubernetes, running workloads in public clouds, or just tired of duct-taping Grafana to load tests, you owe it to yourself to try Meshery.
 
 —
 
