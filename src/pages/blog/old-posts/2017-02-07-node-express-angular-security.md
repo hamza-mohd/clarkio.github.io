@@ -1,7 +1,7 @@
 ---
 title: 'Getting Started with Node.js Security with Express and Angular'
 publishDate: February 7, 2017
-author: 'Brian Clark'
+author: 'Hamza Mohd'
 description: 'Sharing a course on how to build a secure Node.js Express server and Angular client'
 keywords: 'javascript, node.js, node, nodejs, security, appsec, application security, application, angular.js, angular'
 layout: '../../../layouts/BaseLayout.astro'

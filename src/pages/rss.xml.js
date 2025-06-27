@@ -11,7 +11,7 @@ const sortedPosts = allPosts.sort(
 
 export const get = () =>
   rss({
-    title: 'Brian Clark',
+    title: 'Hamza Mohd',
     description:
       'Developer advocate and content creator who loves to learn new things and share them.',
     site: import.meta.env.SITE,

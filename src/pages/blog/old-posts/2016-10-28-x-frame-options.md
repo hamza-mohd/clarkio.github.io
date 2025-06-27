@@ -1,7 +1,7 @@
 ---
 title: 'Options in X-Frame-Options'
 publishDate: October 28, 2016
-author: 'Brian Clark'
+author: 'Hamza Mohd'
 description: 'An explanation of the options available for use in the X-FRAME-OPTIONS header'
 keywords: 'security, headers, web, development, iframe, clickjacking, X-FRAME-OPTIONS, content security policy, csp'
 layout: '../../../layouts/BaseLayout.astro'

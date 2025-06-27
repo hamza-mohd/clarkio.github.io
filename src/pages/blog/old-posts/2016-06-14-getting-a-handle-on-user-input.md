@@ -1,7 +1,7 @@
 ---
 title: 'Getting a Handle on User Input'
 publishDate: June 14, 2016
-author: 'Brian Clark'
+author: 'Hamza Mohd'
 description: "Learn how to properly handle user input for your application's security. Understand the different types of input handling and why they're important."
 keywords: 'security, application security, appsec, application, input handling, cross-site scripting, injection, code injection, sql injection, xss'
 layout: '../../../layouts/BaseLayout.astro'

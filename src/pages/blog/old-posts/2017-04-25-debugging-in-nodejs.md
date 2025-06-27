@@ -1,7 +1,7 @@
 ---
 title: 'Debugging in Node.js in 2017'
 publishDate: April 25, 2017
-author: 'Brian Clark'
+author: 'Hamza Mohd'
 description: 'Exploring the different debugging strategies for Node.js apps and understanding the pros and cons of each one'
 keywords: 'pwa, progressive web app, web push, api, web push api, javascript, node.js, node, nodejs'
 layout: '../../../layouts/BaseLayout.astro'

@@ -1,7 +1,7 @@
 ---
 title: 'Running Node.js in Azure'
 publishDate: June 23, 2017
-author: 'Brian Clark'
+author: 'Hamza Mohd'
 description: 'This article walks through how to set up resources in Azure to host and run your Node.js apps'
 keywords: 'node.js, nodejs, node, azure, javascript, js'
 layout: '../../../layouts/BaseLayout.astro'

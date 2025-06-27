@@ -36,7 +36,7 @@ A playlist of all videos that I've been involved in. These range from produced v
 - [Adventures in Angular: Episode 131 Security and Angular](http://bit.ly/2nKfCZU)
 - [Web Rush: Twitched at Birth](https://webrush.io/episodes/episode-64-twitched-at-birth-with-brian-clark)
 - [WebRush/Real Talk Podcast (mentioned as a security expert)](https://webrush.io/episodes/e03e32ef)
-- [Coffee and Open Source: Brian Clark](https://open.spotify.com/episode/4KUmjtvg5fntgq7hPvVnNF)
+- [Coffee and Open Source: Hamza Mohd](https://open.spotify.com/episode/4KUmjtvg5fntgq7hPvVnNF)
 
 ### Articles/Blog Posts
 A collection of articles/blog posts I've written or contributed to on other platforms/sites.

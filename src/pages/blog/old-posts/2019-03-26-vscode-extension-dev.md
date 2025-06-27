@@ -1,7 +1,7 @@
 ---
 title: 'Visual Studio Code Extension Development'
 publishDate: March 25, 2019
-author: 'Brian Clark'
+author: 'Hamza Mohd'
 description: 'Learn how to develop a Visual Studio Code extension. Walkthrough creating a theme extension and a functional extension'
 keywords: 'VS Code, Visual Studio Code, vscode, Extension, extensions, development, TypeScript'
 layout: '../../../layouts/BaseLayout.astro'

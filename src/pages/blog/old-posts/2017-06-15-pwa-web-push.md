@@ -1,7 +1,7 @@
 ---
 title: 'Progressive Web Apps and Web Push API - Introduction'
 publishDate: June 15, 2017
-author: 'Brian Clark'
+author: 'Hamza Mohd'
 description: "Part 1 of the PWA and Web Push API blog series. This one covers an introduction to progressive web apps (PWA's)."
 keywords: 'pwa, progressive web app, web push, api, web push api, javascript, node.js, node, nodejs'
 layout: '../../../layouts/BaseLayout.astro'
