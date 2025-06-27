@@ -16,7 +16,6 @@ import profilePhoto from '../images/hamza-mohd.jpg'
         I'm a developer, who enjoys working on difficult problems.
       </h1>
       <a href="/about/" class="about">More about me &rarr;</a>
-      <button data-confetti-button>Celebrate!</button>
     </div>
     <Image
       src={profilePhoto}
@@ -28,9 +27,13 @@ import profilePhoto from '../images/hamza-mohd.jpg'
       (max-width: 1600px) 600px`}
     />
   </div>
+<div style="position:relative; align:center; width:100%;">
   <a href= "https://cloud.layer5.io/user/25d5053d-9be3-4af2-98dc-fcc3cf1cc4e1?tab=badges&badge=first-design" >
-    <img width="224px" height="224px" src = "https://badges.layer5.io/assets/badges/first-design/first-design.png" alt = "First Design" />
+    <img style="object-fit: cover; max-width: 200px; display:flex;justify-self:center;" src = "https://badges.layer5.io/assets/badges/first-design/first-design.png" alt = "First Design" />
   </a>
+  <button data-confetti-button>Celebrate my badge!</button>
+  </div>
+
   <style>
     button[data-confetti-button] {
       outline: none;
@@ -87,13 +90,13 @@ import profilePhoto from '../images/hamza-mohd.jpg'
       color: rgb(255 255 255 / 0.75);
     }
 
-    img {
+    .heroContainer img {
       object-fit: cover;
       box-shadow: 32px 32px 0px rgba(0 0 0 / 0.12);
       max-width: 300px !important;
     }
 
-    :global(.dark) img {
+    .heroContainer img {
       box-shadow: 32px 32px 0px rgba(255 255 255 / 0.1);
     }
 
