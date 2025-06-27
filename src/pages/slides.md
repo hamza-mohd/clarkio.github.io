@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: ../layouts/BaseLayout.astro
 title: 'Slides'
 description: 'Presentation content from past talks by clarkio'
@@ -16,4 +16,4 @@ Below is a list of slides and their sources for past talks I've presented.
 - Securing Angular and Node.js Apps in Azure (Anglebrackets - Fall 2017): [slideshare](https://www.slideshare.net/BrianClark104/securing-angular-and-nodejs-apps-in-azure)
 - Debugging in Node.js and Azure (Anglebrackets - Fall 2017): [slideshare](https://www.slideshare.net/BrianClark104/debugging-in-nodejs-and-azure/)
 - Malicious Input: Angular Has Our Backs (AngularMix - 2017): [slideshare](https://www.slideshare.net/BrianClark104/malicious-input-angular-has-our-back)
-- Forgotten Security (AngularMix - 2017): [slideshare](https://www.slideshare.net/BrianClark104/forgotten-security)
+- Forgotten Security (AngularMix - 2017): [slideshare](https://www.slideshare.net/BrianClark104/forgotten-security) -->

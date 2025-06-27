@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: ../layouts/BaseLayout.astro
 title: 'Talks'
 description: 'Conferences, code camps and community group events at which clarkio talked and/or presented something.'
@@ -124,4 +124,4 @@ Below is a record of the talks I've either presented directly or was involved in
 ### 2015
 
 - ### [Orlando Code Camp](http://orlandocodecamp.com/)
-  - AngularJS Internationalization
+  - AngularJS Internationalization -->
